@@ -1,0 +1,10 @@
+[package]
+name="AptosVault"
+version="0.1.0"
+
+[addresses]
+AptosVault="_"
+ERC4626="0x932d148b45216030dd27a72b1b053db27987c5b93635c40c0852e5be508b8a49"
+
+[dependencies]
+ERC4626= { local = "../ERC4626/" }
